@@ -12,7 +12,7 @@ output:
 
 **NOTE:** The example repository linked above is public so that you can see it as an example, **but all student repositories must be private and shared with instructor and TAs!**
 
-This is an example RMarkdown document. 
+This is an example RMarkdown document. Note that some stylistic choices in this document (e.g., a table of contents) are not required, but feel free to include them in your submission.
 
 ### Setup
 ```{r, message=FALSE}
@@ -38,11 +38,19 @@ options(scipen = 999)
 # make sure to include your code and that it's visible!
 ```
 
+[figure]
+
+*Figure 1. [write caption]*
+
 ### Figure 2
 
 ```{r}
 # make sure to include your code and that it's visible!
 ```
+
+[figure]
+
+*Figure 2. [write caption]*
 
 ### Figure 3
 
@@ -50,14 +58,26 @@ options(scipen = 999)
 # make sure to include your code and that it's visible!
 ```
 
+[figure]
+
+*Figure 3. [write caption]*
+
 ### Figure 4
 
 ```{r}
 # make sure to include your code and that it's visible!
 ```
 
+[figure]
+
+*Figure 4. [write caption]*
+
 ### Figure 5
 
 ```{r}
 # make sure to include your code and that it's visible!
 ```
+
+[figure]
+
+*Figure 5. [write caption]*
