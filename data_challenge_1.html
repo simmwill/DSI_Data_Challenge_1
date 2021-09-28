@@ -1515,26 +1515,45 @@ div.tocify {
 </div>
 
 
+<p><a href="https://github.com/simmwill/DSI_Data_Challenge_1">Link to my GitHub repo for this assignment.</a></p>
+<p><strong>NOTE:</strong> The example repository linked above is public so that you can see it as an example, <strong>but all student repositories must be private and shared with instructor and TAs!</strong></p>
 <p>This is an example RMarkdown document.</p>
+<div id="setup" class="section level3">
+<h3>Setup</h3>
+<pre class="r"><code>## load in the required libraries 
+library(readr)
+library(tidyverse)
+library(here)
+
+## read in the data using here() function
+state_milk_production &lt;- read_csv(here(&quot;data/state_milk_production.csv&quot;))
+clean_cheese &lt;- read_csv(here(&quot;data/clean_cheese.csv&quot;))
+fluid_milk_sales &lt;- read_csv(here(&quot;data/fluid_milk_sales.csv&quot;))
+milk_products_facts &lt;- read_csv(here(&quot;data/milk_products_facts.csv&quot;))
+milkcow_facts &lt;- read_csv(here(&quot;data/milkcow_facts.csv&quot;))
+
+## disable scientific notation
+options(scipen = 999)</code></pre>
+</div>
 <div id="figure-1" class="section level3">
 <h3>Figure 1</h3>
-<pre class="r"><code># some code</code></pre>
+<pre class="r"><code># make sure to include your code and that it&#39;s visible!</code></pre>
 </div>
 <div id="figure-2" class="section level3">
 <h3>Figure 2</h3>
-<pre class="r"><code># some code</code></pre>
+<pre class="r"><code># make sure to include your code and that it&#39;s visible!</code></pre>
 </div>
 <div id="figure-3" class="section level3">
 <h3>Figure 3</h3>
-<pre class="r"><code># some code</code></pre>
+<pre class="r"><code># make sure to include your code and that it&#39;s visible!</code></pre>
 </div>
 <div id="figure-4" class="section level3">
 <h3>Figure 4</h3>
-<pre class="r"><code># some code</code></pre>
+<pre class="r"><code># make sure to include your code and that it&#39;s visible!</code></pre>
 </div>
 <div id="figure-5" class="section level3">
 <h3>Figure 5</h3>
-<pre class="r"><code># some code</code></pre>
+<pre class="r"><code># make sure to include your code and that it&#39;s visible!</code></pre>
 </div>
 
 

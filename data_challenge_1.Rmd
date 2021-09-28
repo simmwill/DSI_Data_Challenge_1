@@ -8,34 +8,56 @@ output:
     toc_float: true
 ---
 
+[Link to my GitHub repo for this assignment.](https://github.com/simmwill/DSI_Data_Challenge_1)
+
+**NOTE:** The example repository linked above is public so that you can see it as an example, **but all student repositories must be private and shared with instructor and TAs!**
+
 This is an example RMarkdown document. 
+
+### Setup
+```{r, message=FALSE}
+## load in the required libraries 
+library(readr)
+library(tidyverse)
+library(here)
+
+## read in the data using here() function
+state_milk_production <- read_csv(here("data/state_milk_production.csv"))
+clean_cheese <- read_csv(here("data/clean_cheese.csv"))
+fluid_milk_sales <- read_csv(here("data/fluid_milk_sales.csv"))
+milk_products_facts <- read_csv(here("data/milk_products_facts.csv"))
+milkcow_facts <- read_csv(here("data/milkcow_facts.csv"))
+
+## disable scientific notation
+options(scipen = 999)
+```
 
 ### Figure 1
 
 ```{r}
-# some code
+# make sure to include your code and that it's visible!
 ```
 
 ### Figure 2
 
 ```{r}
-# some code
+# make sure to include your code and that it's visible!
 ```
 
 ### Figure 3
 
 ```{r}
-# some code
+# make sure to include your code and that it's visible!
 ```
 
 ### Figure 4
 
 ```{r}
-# some code
+# make sure to include your code and that it's visible!
 ```
 
 ### Figure 5
 
 ```{r}
-# some code
+# make sure to include your code and that it's visible!
 ```
