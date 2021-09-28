@@ -1,0 +1,41 @@
+---
+title: "Data Challenge I"
+author: "Will Simmons"
+date: "9/28/2021"
+output: 
+  html_document:
+    toc: true 
+    toc_float: true
+---
+
+This is an example RMarkdown document. 
+
+### Figure 1
+
+```{r}
+# some code
+```
+
+### Figure 2
+
+```{r}
+# some code
+```
+
+### Figure 3
+
+```{r}
+# some code
+```
+
+### Figure 4
+
+```{r}
+# some code
+```
+
+### Figure 5
+
+```{r}
+# some code
+```
