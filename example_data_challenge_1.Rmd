@@ -1,5 +1,5 @@
 ---
-title: "Data Challenge I"
+title: "Data Challenge 1: Example"
 author: "Will Simmons"
 date: "9/28/2021"
 output: 
